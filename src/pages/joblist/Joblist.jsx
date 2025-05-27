@@ -1,5 +1,4 @@
 import  { useEffect, useState } from 'react';
-import './JobList.css';
 import { useUser } from '@clerk/clerk-react';
 
 const JobList = () => {

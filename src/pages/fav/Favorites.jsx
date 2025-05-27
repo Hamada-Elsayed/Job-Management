@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useUser } from '@clerk/clerk-react';
-import '../joblist/Joblist.css';
 
 const Favorites = () => {
   const { user } = useUser();

@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import './Home.css';
+import { useEffect, useState } from 'react';
 import { useUser } from "@clerk/clerk-react";
 import { SignInButton } from '@clerk/clerk-react';
 
 const Home = () => {
-  
+
   const { user, isSignedIn } = useUser();
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
