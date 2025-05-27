@@ -175,9 +175,14 @@ li:hover {
 }
 
 .auth-section {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
+.logout {
+      display: flex;
+    background-color: #042c45;
+    color: white;
+}
 
 
 
@@ -323,7 +328,7 @@ li:hover {
   }
 
   .add-job-form  {
-    width: 200px;
+    width: 250px;
   }
   
 }
