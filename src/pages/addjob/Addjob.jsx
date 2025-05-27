@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import './AddJob.css';
+import { useState } from 'react';
 import { useUser } from '@clerk/clerk-react';
 
 const AddJob = () => {
