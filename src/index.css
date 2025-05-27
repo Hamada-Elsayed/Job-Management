@@ -18,6 +18,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
@@ -62,7 +63,7 @@ button:focus-visible {
 /* sidebar */
 .sidebar {
   height: 100vh;
-  width: 200px;
+  width: 210px;
   background-color: #031C30;
   color: #eeeeee75;
   display: flex;
@@ -165,6 +166,11 @@ li:hover {
     display: block;
   }
 }
+
+.auth-section {
+  margin-bottom: 50px;
+}
+
 
 
 
@@ -398,6 +404,20 @@ li:hover {
 
 .edit-actions button[type="button"]:hover {
   background-color: #c82333;
+}
+
+.updata-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.delete-btn {
+  background-color: 	#DC2626;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: 	#B91C1C;
 }
 
 

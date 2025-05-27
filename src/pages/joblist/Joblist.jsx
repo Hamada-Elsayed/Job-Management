@@ -168,8 +168,8 @@ const JobList = () => {
                   {job.notes && <p><strong>ملاحظات:</strong> {job.notes}</p>}
 
                   <div className="job-actions">
-                    <button onClick={() => startEditing(index)}>✏️ تعديل</button>
-                    <button onClick={() => handleDelete(index)}>🗑️ حذف</button>
+                    <button className='updata-btn' onClick={() => startEditing(index)}>✏️ تعديل</button>
+                    <button className='delete-btn' onClick={() => handleDelete(index)}>🗑️ حذف</button>
                   </div>
                 </>
               )}
